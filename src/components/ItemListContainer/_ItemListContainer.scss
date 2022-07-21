@@ -1,0 +1,15 @@
+.itemlist-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    flex-direction: column;
+    .item{
+        width: 24%;
+        gap: 3px;
+img{
+    width: 100%;
+}
+}
+}

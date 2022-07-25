@@ -12,9 +12,9 @@ export const arrayProducts = [
         stock:10
     },
     {
-        title:"Malabarista",
+        title:"Sottano",
         price:1500,
-        image:'malabarista.png',
+        image:'sottano.png',
         stock:5
     },
     {

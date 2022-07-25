@@ -1,4 +1,5 @@
 import './NavBar.scss';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return(

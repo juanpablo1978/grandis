@@ -1,0 +1,21 @@
+.itemcount-container{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 6px;
+
+    &__controls{
+        display: flex;
+        justify-content: center;
+        gap:6px;
+
+        .button-count{
+            border: 2px solid;
+            padding: 0 4px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+    
+}

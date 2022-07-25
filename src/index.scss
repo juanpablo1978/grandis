@@ -1,3 +1,6 @@
+/*app*/
+@use'./App.scss';
+
 /*abstracts*/
 @use'./scss/abstracts/variables';
 @use'./scss/abstracts/mixins';
@@ -7,8 +10,8 @@
 @use'./scss/base/resets';
 
 /*components*/
-@use'./src/components/navbar/NavBar';
-@use'./components/ItemListContainer/ItemListContainer' ;
+/*@use'./src/components/NavBar/NavBar';
+@use'./components/ItemListContainer/ItemListContainer';*/
 
 
 

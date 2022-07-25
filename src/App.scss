@@ -1,0 +1,11 @@
+h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+@media (min-width:720px){
+    h2{padding-top: 150px;
+        margin-left: 20px;
+}
+}

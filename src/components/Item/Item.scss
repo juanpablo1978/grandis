@@ -1,0 +1,27 @@
+.item-container{
+    width: 320px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    &__img{
+        width:100%;
+    }
+
+}
+
+.item-button{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid rgb(107, 107, 15);
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item-button:hover{
+    background: white;
+    color: black;
+}
+

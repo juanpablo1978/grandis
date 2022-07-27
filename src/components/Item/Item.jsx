@@ -14,7 +14,7 @@ const Item = ({product}) => {
     <article className="item-container">
                 <img className="item-container__img" src={`assets/${image}`} alt="Imagen producto"/>
                 <p className="item-container__title" >{title}</p>
-                <span className="item-container__price" >{price}</span>
+                <span className="item-container__price" >${price}</span>
                 <ItemCount
                     stock={ stock }
                     initial={1}
